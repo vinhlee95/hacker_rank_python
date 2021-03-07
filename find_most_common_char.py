@@ -51,3 +51,4 @@ class OrderedCounter(Counter, OrderedDict):
 
 
 [print(*c) for c in OrderedCounter(sorted(s)).most_common(3)]
+
